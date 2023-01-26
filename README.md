@@ -1,7 +1,7 @@
 ### Как запустить проект:
 Клонировать репозиторий и перейти в него в командной строке:
-git clone https://github.com/killerarz/api_yamdb.git
-cd api_yamdb
+git clone https://github.com/dimn3/infra_sp2.git
+cd infra_sp2
 Cоздать и активировать виртуальное окружение:
 python3 -m venv env
 * Если у вас Linux/macOS
@@ -38,7 +38,7 @@ API разработано в учебных целях для **Yandex.Praktiku
 * Simple-JWT 4.7.2
 ## Установка проекта
 Клонируйте данный репозиторий на свой компьютер и перейдите в папку проекта.
-<pre><code>git clone https://github.com/killerarz/api_yamdb.git</code>
+<pre><code>git clone https://github.com/dimn3/infra_sp2.git</code>
 <code>cd api_final_yatube</code></pre>
 Создайте и активируйте виртуальное окружение:
 <pre><code>python -m venv venv</code>
@@ -53,3 +53,47 @@ API разработано в учебных целях для **Yandex.Praktiku
 ## Документирование API
 Структура запросов и ответов API документирована в ReDoc.
 После запуска проекта документация доступна по адресу http://localhost:8000/redoc/
+
+
+Лицензия MIT
+
+Авторское право (c) 2023 Парфенов Дмитрий
+
+Настоящим бесплатно предоставляется разрешение любому лицу, получающему копию
+этого программного обеспечения и связанных с ним файлов документации ("Программное обеспечение"), на работу
+с Программным обеспечением без ограничений, включая без ограничений права
+на использование, копирование, модификацию, объединение, публикацию, распространение, сублицензирование и/или продавать
+копии Программного обеспечения и разрешать лицам, которым предоставляется программное
+обеспечение, делать это при соблюдении следующих условий:
+
+Вышеуказанное уведомление об авторских правах и это уведомление о разрешении должны быть включены во все
+копии или существенные части программного обеспечения.
+
+ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПРЕДОСТАВЛЯЕТСЯ "КАК ЕСТЬ", БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ, ЯВНЫХ ИЛИ
+ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ, НО НЕ ОГРАНИЧИВАЯСЬ ГАРАНТИЯМИ ТОВАРНОЙ ПРИГОДНОСТИ,
+ПРИГОДНОСТИ ДЛЯ ОПРЕДЕЛЕННОЙ ЦЕЛИ И ОТСУТСТВИЯ НАРУШЕНИЙ. НИ В КОЕМ СЛУЧАЕ
+АВТОРЫ ИЛИ ПРАВООБЛАДАТЕЛИ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ЗА КАКИЕ-ЛИБО ПРЕТЕНЗИИ, УЩЕРБ ИЛИ ДРУГИЕ
+ОТВЕТСТВЕННОСТЬ, БУДЬ ТО В РЕЗУЛЬТАТЕ ДЕЙСТВИЯ ДОГОВОРА, ДЕЛИКТА ИЛИ ИНЫМ ОБРАЗОМ, ВОЗНИКАЮЩАЯ ИЗ,
+ВНЕ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ИЛИ В СВЯЗИ С НИМ, А ТАКЖЕ С ИСПОЛЬЗОВАНИЕМ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ИЛИ ДРУГИМИ ОПЕРАЦИЯМИ С НИМ.
+
+MIT License
+
+Copyright (c) 2023 Parfenov Dmitrii
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
